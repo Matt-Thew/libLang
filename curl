@@ -1,0 +1,6 @@
+dowload file 
+curl https://mirror.downloadvn.com/videolan/vlc/3.0.6/macosx/vlc-3.0.6.dmg -O
+ตั้งชื่ออัตโนมัติ
+
+find / -name ชื่อไฟล์
+ค้นหาไฟล์

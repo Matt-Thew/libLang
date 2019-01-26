@@ -1,0 +1,11 @@
+        $order = Mage::getModel("sales/order")->loadByIncrementId($orderId);
+        $customerName = $order->getCustomerName();
+
+
+
+public function orderstatus(){
+    $orderId = '1812140047';
+    $order = Mage::getModel("sales/order")->loadByIncrementId($orderId);
+    $status = $order->getStatus();
+    dump($status);
+}

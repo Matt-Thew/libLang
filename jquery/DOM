@@ -1,0 +1,10 @@
+hide show
+$("#hide").click(function(){
+    $("p").hide();
+});
+
+attr data
+jQuery('#address_book').attr('data_json').val();
+
+add attr
+$('#someid').attr('name', 'value');

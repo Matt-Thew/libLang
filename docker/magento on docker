@@ -1,0 +1,30 @@
+create magento on docker
+docker-machine create -d virtualbox default
+
+install virtualbox
+brew cask install virtualbox;
+
+create virtualbox
+docker-machine create -d virtualbox default
+
+show virtualbox info
+docker-machine env default
+
+run
+eval $(docker-machine env default)
+
+run 
+composer create-project  --ignore-platform-reqs --repository-url=https://repo.magento.com magento/project-community-edition ma_dev
+
+run 
+composer require --ignore-platform-reqs arvatoscm/dockerize-magento2
+
+chmod +x bin/*
+
+bin/console install
+
+show ip
+docker-machine ip default
+192.168.99.100
+
+bin/console install docker.local

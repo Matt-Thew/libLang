@@ -1,0 +1,19 @@
+pull contianer
+docker pull nginx:1.12.2
+docker pull nginx:stable
+docker pull nginx:latest
+
+show all image
+docker image list
+docker image list -a
+
+run contianer 
+docker run -it nginx:1.12.2 /bin/bash
+docker run -it c8252324 /bin/bashN
+
+show contianer runing
+docker contianer ls -a
+
+stop contianer 
+docker stop b0cf94d4375d
+
