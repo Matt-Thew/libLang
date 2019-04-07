@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Callpackage",
+            "request": "launch",
+            "mainClass": "Callpackage"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arrayexample",
+            "request": "launch",
+            "mainClass": "Arrayexample"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Usingclass",
             "request": "launch",
             "mainClass": "Usingclass"

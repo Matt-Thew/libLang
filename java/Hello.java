@@ -18,4 +18,4 @@ public class Hello{
         String input = System.console().readLine();
         System.out.printf("Hello ,This name %s",input)  ;
   }
-}
+} 
