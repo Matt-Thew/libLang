@@ -1,0 +1,45 @@
+Create container //cd in directory that has dockerfile
+docker build -t mongotest . 
+
+public port 
+Docker run -p 27017:27017  mongotest
+
+run background container image
+docker run -p 80:8080 --detach nginx
+
+show network container
+docker network inspect bridge
+
+
+pull contianer
+docker pull nginx:1.12.2
+docker pull nginx:stable
+docker pull nginx:latest
+
+show all image
+docker image list
+docker image list -a
+
+run contianer 
+docker run -it nginx:1.12.2 /bin/bash
+docker run -it c8252324 /bin/bashN
+
+show contianer runing
+docker contianer ls -a
+
+stop contianer 
+docker stop b0cf94d4375d
+
+run os container
+docker run -it --detach --name=container1 ubuntu
+
+get inside container
+
+remove image
+docker rmi name
+
+log history 
+docker logs name
+
+get inside container
+docker exec -it 2f6bc3e81e2a /bin/bash

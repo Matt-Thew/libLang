@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Movie",
+            "request": "launch",
+            "mainClass": "Movie"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Callpackage",
             "request": "launch",
             "mainClass": "Callpackage"
