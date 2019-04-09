@@ -21,8 +21,4 @@ public class Character {
     public void fill(){
         MAX_COUNT = 12;
     }
-
-    public void thowException(){
-        throw new IllegalArgumentException("Check throw");
-    }
 }

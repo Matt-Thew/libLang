@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Constructer",
+            "request": "launch",
+            "mainClass": "Constructer"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Constucter",
+            "request": "launch",
+            "mainClass": "Constucter"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Movie",
             "request": "launch",
             "mainClass": "Movie"

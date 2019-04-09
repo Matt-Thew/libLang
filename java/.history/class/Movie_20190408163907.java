@@ -6,8 +6,8 @@ public class Movie {
 
        Character movie = new Character("Matt");
        System.out.println(movie.getCharacterName());
-       //movie.fill();
-       movie.thowException();
+       movie.fill();
+       System.out.println(movie.isEmpty());
     }
     
 }

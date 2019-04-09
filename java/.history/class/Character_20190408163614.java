@@ -14,15 +14,7 @@ public class Character {
         return characterName;
     }
 
-    public boolean isEmpty(){
-        return MAX_COUNT==0;
-    }
-
     public void fill(){
         MAX_COUNT = 12;
-    }
-
-    public void thowException(){
-        throw new IllegalArgumentException("Check throw");
     }
 }

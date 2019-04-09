@@ -2,7 +2,7 @@
  * character
  */
 public class Character {
-    private int MAX_COUNT;
+    private int MAX_COUNT =0;
 
     private String characterName;
     
@@ -12,17 +12,9 @@ public class Character {
 
     public String getCharacterName() {
         return characterName;
-    }
-
-    public boolean isEmpty(){
+    }  
+    
+    public boolean isEmtpy(){
         return MAX_COUNT==0;
-    }
-
-    public void fill(){
-        MAX_COUNT = 12;
-    }
-
-    public void thowException(){
-        throw new IllegalArgumentException("Check throw");
     }
 }
