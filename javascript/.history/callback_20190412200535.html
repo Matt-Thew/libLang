@@ -1,0 +1,19 @@
+<script>
+function doHomework(subject, callback) {
+  alert(`Starting my ${subject} homework.`);
+  callback();
+  alert("afer");
+}
+function alertFinished(){
+
+    setTimeout(() => {
+      alert('Finished my homework');
+    }, 5000);
+}
+doHomework('math', alertFinished);
+
+setTimeout(() => {
+  
+}, timeout);
+</script>
+

@@ -1,0 +1,2 @@
+message = gets 
+puts message

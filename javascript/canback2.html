@@ -1,0 +1,19 @@
+<script>
+
+
+function hello(){
+    console.log('hello');
+    return "just return";
+}
+
+function callBack(callBack){
+    console.log('in callBack');
+    var data = callBack();
+    console.log(data);
+}
+
+
+
+callBack(hello);
+
+</script>
