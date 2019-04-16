@@ -1,0 +1,8 @@
+# first
+pip install django
+
+# 2 init base file
+django-admin startproject mysite
+
+# 3 create server
+python3 manage.py runserver 127.0.0.1:3003

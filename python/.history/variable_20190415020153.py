@@ -1,0 +1,1 @@
+naem = "Ada Ami";

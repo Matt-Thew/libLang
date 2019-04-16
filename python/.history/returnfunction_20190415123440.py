@@ -1,0 +1,4 @@
+def checkBill(total):
+
+
+end:

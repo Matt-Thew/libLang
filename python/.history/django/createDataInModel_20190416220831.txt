@@ -1,0 +1,1 @@
+Cousre.object.create(title="Python",descrition="Hello Python")

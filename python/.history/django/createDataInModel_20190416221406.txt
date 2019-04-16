@@ -1,0 +1,9 @@
+#access shell
+python manage.py shell
+
+#call Cousre.object.create
+
+#create data
+Cousre.objects.create(title="Python",descrition="Hello Python")
+
+#show all object

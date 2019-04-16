@@ -1,0 +1,13 @@
+#access shell
+python manage.py shell
+
+
+#create data
+Cousre.objects.create(title="Python",descrition="Hello Python")
+
+#show all object
+Course.object.all()
+
+
+#call object
+from course.models import Course
