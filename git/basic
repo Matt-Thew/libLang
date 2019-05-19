@@ -24,3 +24,6 @@ git status //show file  name that delete then git checkout -- hello.html
 
 show all commit
 git log
+
+pull 
+git pull 
