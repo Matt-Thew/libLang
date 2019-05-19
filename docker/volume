@@ -1,0 +1,22 @@
+create
+docker volume create my-vol
+
+remove 
+docker volume rm name
+
+show list volume
+docker volume ls
+
+mount file directory
+
+/usr/src/app
+docker run -p 3001:8080 -v /usr/app/stock/api:/usr/src/app/stock/ --detach stock
+
+
+mount volume
+                            name-volume:/path
+docker run -v my-vol:/test_volume --detach -p 8080:8080 6372f15b6c64
+docker run -v /usr/app/stock/api:/usr/src/app/stock/ -p 8080:8080 --detach stock
+
+
+forever -c "nodemon --exitcrash" stock.js
