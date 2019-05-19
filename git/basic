@@ -1,5 +1,26 @@
 show all edited history
 git log -p
 
-show all different
-git diff
+show all different in that file not added
+git diff 
+
+show current file diff staged 
+git diff --staged
+
+staged rm
+git rm hello.html
+
+changed name file
+git mv oldfile.html oldfile.php
+
+remove from staged file
+git reset HEAD hello.html
+
+reset to last commit 
+git checkout -- hello.html
+
+recover from delete file in directory
+git status //show file  name that delete then git checkout -- hello.html
+
+show all commit
+git log
