@@ -1,0 +1,22 @@
+<script>
+    const colorOfRainbow = [
+        "red","green","blue"
+    ]
+
+    new Vue({
+        el:".color",
+        data:{
+            rainbow: colorOfRainbow
+        }
+    })
+</script>
+
+
+
+<div class="color">
+
+    <ul v-for="(color, index) in rainbow" :key="index">
+
+
+    </ul>
+</div>

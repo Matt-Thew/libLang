@@ -1,0 +1,25 @@
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+        const colorsOfTheRainbow = [
+        "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+    new Vue({
+        el:'.color',
+        data:{
+            rainbow: colorsOfTheRainbow
+        }
+    });
+</script>
+
+
+
+<div class="color">
+    <ul >
+        <li v-for="eachColor in rainbow">
+            {{ eachColor }}
+
+        </li>
+        <li v-bind:style="{color:item}" v-for="(item, index) in rainbow">{{index}} - {{item}}</li>
+
+    </ul>
+</div>

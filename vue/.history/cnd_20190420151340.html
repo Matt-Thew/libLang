@@ -1,0 +1,30 @@
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+
+<div class="hello-vue">
+    <h1>{{ title }}</h1>
+</div>
+
+    <li class="second">
+
+        <h2>{{ title }}</h2>
+    </li>
+
+
+<script>
+
+
+    const helloWorld = new Vue({
+        el: '.hello-vue',
+        data:{
+            title:"hello view"
+        }
+    });
+
+    const second = new Vue({
+        el: '.second',
+        data:{
+            title:"second title"
+        }
+    });
+</script>

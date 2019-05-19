@@ -1,0 +1,12 @@
+<script>
+
+    var url = "http://api.open-notify.org/astros.json";
+    
+    callData();
+    
+    async function callData(){
+        var data = await fetch(url);
+        var dataJSON = await data.json();
+        console.log(dataJSON);
+    }
+</script>

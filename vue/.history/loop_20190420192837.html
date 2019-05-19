@@ -1,0 +1,25 @@
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+    const colorOfRainbow = [
+        "red","green","blue"
+    ]
+
+    new Vue({
+        el:".color",
+        data:{
+            rainbow: colorOfRainbow
+        }
+    })
+</script>
+
+
+
+<div class="color">
+    <ul >
+        <li v-for="color in rainbow">
+            {{ color }}
+
+        </li>
+
+    </ul>
+</div>

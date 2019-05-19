@@ -1,0 +1,5 @@
+show all edited history
+git log -p
+
+show all different
+git diff

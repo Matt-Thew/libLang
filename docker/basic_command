@@ -22,7 +22,7 @@ docker image list -a
 
 run contianer 
 docker run -it nginx:1.12.2 /bin/bash
-docker run -it c8252324 /bin/bashN
+docker run -it c8252324 /bin/bash
 
 show contianer runing
 docker contianer ls -a

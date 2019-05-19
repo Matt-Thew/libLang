@@ -1,0 +1,24 @@
+
+
+
+<div id="colors">
+    <ul>
+        <li v-for="eachColor in rainbow">
+            {{ eachColor }}
+
+        </li>
+
+    </ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+        const colorsOfTheRainbow = [
+        "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+    
+    new Vue({
+        el: '#colors',
+        data: {
+            rainbow: colorsOfTheRainbow
+        }
+    });
+</script>

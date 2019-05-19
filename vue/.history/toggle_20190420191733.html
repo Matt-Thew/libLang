@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<div class="toggle-detail">
+
+    <button v-on:click="toggleDetail">click</button>
+
+    <div class="" v-show="toggleDetail=true">
+        hello data
+    </div>
+
+</div>
+
+
+<script>
+
+
+    const helloWorld = new Vue({
+        el: '.toggle-detail',
+        data:{
+        },
+        methods: {
+            toggleDetail: function(){
+                this.showDetail = !this.showDetail;
+            }
+        },
+    });
+</script>

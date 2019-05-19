@@ -1,0 +1,31 @@
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+
+<button class="toggle-detail">click</button>
+
+
+<script>
+
+
+    const helloWorld = new Vue({
+        el: '.hello-vue',
+        data:{
+            title:"hello view"
+        }
+    });
+
+    const second = new Vue({
+        el: '.second',
+        data:{
+            title:"second title"
+        },
+        methods: {
+            sayHello: function(){
+                alert(this.title);
+            },
+            showDetail: function(){
+                
+            }
+        }
+    });
+</script>
